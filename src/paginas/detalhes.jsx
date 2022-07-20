@@ -1,5 +1,5 @@
 import { Footer } from "../Componentes/Footer";
-import { Header } from "../Componentes/header";
+import { Header } from "../Componentes/Header";
 
 export function Detalhes(){
     return(
