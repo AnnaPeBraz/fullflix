@@ -2,6 +2,8 @@ import { Cards } from "../Componentes/Cards";
 import { Footer } from "../Componentes/Footer";
 
 function Inicial(){
+    const pageName = `Home`
+
     return( // return sempre retorna html, css ou jsx
     //jsx precisa de uma div pai.
         <div> 
@@ -10,7 +12,7 @@ function Inicial(){
                 <h2>Filmes Populares</h2>
                 <Cards/>
            </div>
-           <Footer/>             
+           <Footer texto={`FULLFLIX 2022, Todos os direitos reservados. | ${pageName}`}/>             
         </div>
     )
 }
