@@ -9,7 +9,7 @@ function Inicial(){
     //jsx precisa de uma div pai.
         <div> 
            <Header/>
-           <div>Div dos Cards
+           <div>
                 <h2>Filmes Populares</h2>
                 <Cards/>
            </div>
