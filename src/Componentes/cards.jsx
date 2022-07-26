@@ -13,7 +13,7 @@ export function Cards (){
             {!filmes ? <><p>NOPS</p></> : <>{filmes.map((filme)=>{
                 return(
                     <div>
-                        <img src={`https://image.tmdb.org/t/p/w500${filme.poster_path}`}></img>
+                        {/* <img src={`https://image.tmdb.org/t/p/w500${filme.poster_path}`}></img> */}
                         <p>{`Título: ${filme.title}`}</p>
                         <p>{`Nota: ${filme.vote_average}`}</p>               
                     </div>
