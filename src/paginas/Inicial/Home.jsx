@@ -6,17 +6,17 @@ import { Pai, Titulo } from "./HomeStyle";
 
 function Inicial(){
     const pageName = `Home`
-    const [imagem, setImagem] = useState("imagemInicial")
+    // const [imagem, setImagem] = useState("imagemInicial")
 
-    useEffect(() => {
-        setImagem("Nova Imagem")
-    },[])
+    // useEffect(() => {
+    //     setImagem("Nova Imagem")
+    // },[])
 
     return( // return sempre retorna html, css ou jsx
     //jsx precisa de uma div pai.
         <Pai> 
            
-           <div className="imagemInicial">{imagem}</div>
+           <div className="imagemInicial"></div>
            {/* <Header/> */}
            <div>
                 <Titulo>Filmes Populares</Titulo>
