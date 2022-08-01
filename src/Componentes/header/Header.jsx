@@ -1,4 +1,4 @@
-import { Pai } from "../paginas/Inicial/HomeStyle"
+import { Pai } from "../../paginas/Inicial/HomeStyle"
 
 export const Header = () =>{
     return(

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { Pegarfilmes } from "../assets/apis/api"
+import { Pegarfilmes } from "../../assets/apis/api"
 import { Container } from "./CardsStyle";
 
 export function Cards (){

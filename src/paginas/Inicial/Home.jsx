@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { Cards } from "../../Componentes/Cards";
-import { Footer } from "../../Componentes/Footer";
-import {Header} from "../../Componentes/Header";
+import { Cards } from "../../Componentes/cards/Cards";
+import { Footer } from "../../Componentes/footer/Footer";
+import {Header} from "../../Componentes/header/Header";
 import { Pai, Titulo } from "./HomeStyle";
 
 function Inicial(){
