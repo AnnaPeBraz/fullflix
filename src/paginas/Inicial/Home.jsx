@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Cards } from "../../Componentes/cards/Cards";
 import { Footer } from "../../Componentes/footer/Footer";
 import {Header} from "../../Componentes/header/Header";
-import { Pai, Titulo } from "./HomeStyle";
+import { Pai, Titulo, p2 } from "./HomeStyle";
 
 function Inicial(){
     const pageName = `Home`
@@ -18,10 +18,13 @@ function Inicial(){
            
            <div className="imagemInicial"></div>
            {/* <Header/> */}
-           <div>
-                <Titulo>Filmes Populares</Titulo>
-                <Cards/> 
-           </div>
+           
+            <Titulo>Filmes Populares</Titulo>
+            <p2>
+                <Cards/>
+            </p2>
+
+           
            <Footer texto={`FULLFLIX 2022, Todos os direitos reservados. | ${pageName}`}/>             
         </Pai>
     )

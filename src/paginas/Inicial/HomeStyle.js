@@ -36,5 +36,11 @@ export const p1 = styled.h2 `
     }
 `
 export const p2 = styled.div `
-    display
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    min-height: 90vh;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+
 `
