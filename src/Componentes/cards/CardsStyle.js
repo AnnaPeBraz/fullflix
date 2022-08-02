@@ -1,16 +1,13 @@
 import styled from "styled-components";
 
 export const Grid = styled.div `
+   
     display: grid;
-    justify-content: center;
-    align-items: center;
     gap: 3vh;
-    color: white;
-    min-height: 20vh;
+    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     padding: 10vh 0;
-    width: 80%;
-    gap: 3vw;
-    grid-template-columns: auto(repeat(auto-fit, minmax(300px, 1fr)));
+    min-height: 20vh;
 `
 
 export const Container = styled.div `
@@ -33,10 +30,15 @@ export const Container = styled.div `
         display: flex;
         justify-content: center;
         font-size: 2vh;
+        height: 20%;
+        align-self: center;
+        color: white;
     }
     img{
         width: 100%;
         height: 80%;
-        
-    }
+
+    } /* */
 `
+
+// FRONT END NAO É UMA CIENCIA EXATA D:< 

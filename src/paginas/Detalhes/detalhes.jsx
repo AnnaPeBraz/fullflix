@@ -1,5 +1,5 @@
-import { Footer } from "../../Componentes/Footer";
-import { Header } from "../../Componentes/Header";
+import { Footer } from "../../Componentes/Footer/Footer";
+import { Header } from "../../Componentes/Header/Header";
 
 export function Detalhes(){
     return(
@@ -8,7 +8,7 @@ export function Detalhes(){
             <main>
                 Div/Main do meio
             </main>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

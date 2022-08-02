@@ -22,9 +22,9 @@ export function Cards (){
                             </div>
                                         
                         </Container>
-                    ) 
-                
-                    })}</>
+                    )
+                }
+                )}</>
             }
         </Grid>
     )
