@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import {Link} from "react-router-dom"
 
-export const Grid = styled.div `
+export const Grid = styled(Link) `
    
     display: grid;
     gap: 3vh;

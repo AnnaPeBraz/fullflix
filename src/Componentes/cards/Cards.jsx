@@ -10,7 +10,8 @@ export function Cards (){
     },[])
     
     return(
-        <Grid>
+ 
+        <Grid to="/detalhe">
             {!filmes ? <><p>NOPS</p></> : <>
                 {filmes.map((filme)=> {
                     return(
