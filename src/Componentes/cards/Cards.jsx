@@ -1,13 +1,26 @@
 import { useEffect, useState } from "react"
 import { Pegarfilmes } from "../../assets/apis/api"
 import { Container, Grid } from "./CardsStyle";
+import { useDispatch  } from "react-redux/es/exports";
+import { getMovieDetails } from "../../assets/redux/slice";
+
 
 export function Cards (){
     const [filmes, setFilmes] = useState();
+    // const [detalhes, setDetalhes] = useState();
+    // const dispatch = useDispatch();
 
     useEffect(()=>{
         Pegarfilmes(setFilmes)
-    },[])
+    },[]) //colchetes vazios, ele ativa com a pagina carregada
+
+    // useEffect(()=>{
+    //     dispatch(getMovieDetails(detalhes))
+    // }, [detalhes])
+
+    // const onHoverDetail = (e) =>{
+    //     Pegarfilmes(setDetalhes)
+    // }
     
     return(
  

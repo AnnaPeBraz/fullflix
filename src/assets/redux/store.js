@@ -6,11 +6,11 @@ import { getDefaultMiddleware } from "@reduxjs/toolkit"
     
 // })
 
-export const store = configureStore({
-    reducer: {
-        page: pageReducer
-    },
-    middleware: getDefaultMiddleware => getDefaultMiddleware({
-        serializableCheck: false
-    })
-})
+// export const store = configureStore({
+//     reducer: {
+//         page: pageReducer
+//     },
+//     middleware: getDefaultMiddleware => getDefaultMiddleware({
+//         serializableCheck: false
+//     })
+// })

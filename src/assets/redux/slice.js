@@ -8,7 +8,7 @@ const inicialState ={
 }
 
 export const countSlice = createSlice({
-    name: "page";
+    name: "page",
     inicialState,
     reducers: {
         goToHome: (state) => {
