@@ -39,7 +39,7 @@ export const Container = styled.div `
         width: 100%;
         height: 80%;
 
-    } /* */
+    }
 `
 
 // FRONT END NAO É UMA CIENCIA EXATA D:< 
