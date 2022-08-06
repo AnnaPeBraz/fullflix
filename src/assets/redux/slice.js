@@ -1,21 +1,20 @@
 import { createSlice } from "@reduxjs/toolkit"
 
 
-
-const inicialState ={
+const initialState ={
     valor: "Home", 
     valor2: {}
 }
 
 export const countSlice = createSlice({
     name: "page",
-    inicialState,
+    initialState,
     reducers: {
         goToHome: (state) => {
             state.valor = "Home"
         },
         goToDetail: (state) =>{
-            state.valor = "Detalhes"
+            state.valor = "Detail"
         },
         getMovieDetails: (state, action) => {
             state.valor2 = action.payload
